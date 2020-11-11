@@ -6,13 +6,13 @@ numeros = ['A', '2', '3', '4', '5', '6', '7', 'S', 'C', 'R']
 palos = ['o', 'c', 'e', 'b']
 
 #tenemos que concatenar las cartas con los palos para generar la baraja
-def crearBaraja ():
+def crearBaraja (palos, numeros):
     baraja = []
     for palo in palos:
         for numero in numeros:
             baraja.append(numero+palo)
-    
     return baraja
+    
 
 #esta funcion nos ayuda a entender como intercambiar valores dentro de una lista
 '''
@@ -38,9 +38,6 @@ def barajar (lista_de_cartas):
     
     return lista_de_cartas
 
-miBaraja = crearBaraja()
-barajar (miBaraja)
-print (miBaraja)
 
 
         
