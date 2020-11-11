@@ -32,7 +32,7 @@ def barajar (lista_de_cartas):
         nueva_posicion = random.randrange (len(lista_de_cartas))
 
         aux = lista_de_cartas[nueva_posicion]
-        lista[_de_cartas[nueva_posicion] = lista_de_cartas [i]
+        lista_de_cartas[nueva_posicion] = lista_de_cartas [i]
         lista_de_cartas [i] = aux
     
 
