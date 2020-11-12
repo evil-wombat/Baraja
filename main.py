@@ -7,6 +7,9 @@ palos = ['o', 'c', 'e', 'b']
 miBaraja = barajaC.Baraja(palos, numeros)
 
 print (miBaraja.mazacote)
+
+print(miBaraja.repartir (3, 5))
+
 miBaraja.barajar()
 print(miBaraja.mazacote)
 
